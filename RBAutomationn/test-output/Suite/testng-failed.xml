@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.automation.common.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="DeviceObject" value="Android1"/>
+    <classes>
+      <class name="RBSmokeTestScript_Domestic_TS_01">
+        <methods>
+          <include name="LaunchRBApp" invocation-numbers="0"/>
+          <include name="setApplicationEnvironment"/>
+        </methods>
+      </class> <!-- RBSmokeTestScript_Domestic_TS_01 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

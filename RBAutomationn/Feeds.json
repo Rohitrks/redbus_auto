@@ -1,0 +1,83 @@
+{
+
+
+"Generic": {
+	"NODE_PATH": "/usr/local/bin/node", 
+	"APPIUM_PATH": "/usr/local/lib/node_modules/appium/build/lib/main.js",
+	"ipAddress": "127.0.0.1",
+	"logfilePath": "/Users/Shared/Jenkins/Home/workspace/REDB/log1.txt",
+	"deviceCount": "2",
+    "url": "http://127.0.0.1:4724/wd/hub",
+    "OS": "Mac",
+    "device2ipAddress": "127.0.0.1",
+	"device2url": "http://127.0.0.1:4723/wd/hub",
+	"device2version": "7.1.1",
+	"device2OS": "Windows",
+	"device2logfilePath": "/Users/Shared/Jenkins/Home/workspace/REDB/log2.txt",
+	"runfromNode": "true",
+	"AndroidMobiledeviceCount":"1"
+},
+
+"Appium_AUT": {     
+
+          "Android": {         
+                      "AndroidMobile": {                     
+										"Android1": {
+										"browserName": "",
+										"deviceName": "android",
+										"platformName": "android",
+										"automationName": "Appium",
+										"app":"/Users/surendrad/Downloads/rb_android-release.apk",
+										"appPackage": "in.redbus.android",
+										"appActivity": "in.redbus.android.root.SplashScreen",
+										"udid":"HQ535YL16586",
+										"newCommandTimeout":"120"
+
+										},
+
+										"Android2": {
+
+										"browserName": "android",
+										"deviceName": "android",
+										"platformName": "android",
+										"automationName": "Appium",
+										"appPackage": "in.redbus.android",
+										"appActivity": "in.redbus.android.root.SplashScreen",
+										"udid":"05b3ae7a1a4f2925",
+										"newCommandTimeout":"120"
+										}
+                                  
+                         			  },
+                         
+                      
+                      "AndroidTV": {
+										"AndroidTVCount":"2",
+										"AndroidTV1": {
+										"TVparameter1": "TVparameter1",
+										"TVparameter2": "TVparameter2"
+										},
+										
+										"AndroidTV2": {
+										"TVparameter1": "TVparameter1",
+										"TVparameter2": "TVparameter2"
+										}
+          			 				 },
+          			  
+                      "AndroidWatch": {
+										"AndroidWatchCount":"2",
+										"AndroidWatch1": {
+										"Watchparameter1": "Watchparameter1",
+										"Watchparameter2": "Watchparameter2"
+										},
+										
+										"AndroidTV2": {
+										"Watchparameter1": "Watchparameter1",
+										"Watchparameter2": "Watchparameter2"
+										}
+                                    }
+                                    
+                                    }
+                                    
+}
+
+}
